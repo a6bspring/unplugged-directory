@@ -112,6 +112,7 @@ ul,
 ol {
   list-style-type: none;
   margin: 0;
+  padding: 0;
 }
 
 a {
@@ -123,6 +124,7 @@ h2 {
   font-family: 'Poppins', Helvetica, Arial, sans-serif;
   font-size: 1.875em;
   font-weight: 500;
+  margin: 0;
 }
 
 h3,
@@ -560,7 +562,7 @@ input[type=button] {
   }
 
   header nav {
-    width: 20%;
+    width: 23%;
   }
   
   header nav ul {
@@ -607,6 +609,10 @@ input[type=button] {
   
   .features .features-item-description {
     width: 62%;
+  }
+
+  .features i {
+    margin-bottom: 30px;
   }
   
   /* Reviews */
@@ -741,6 +747,10 @@ input[type=button] {
   /* Header */
   header {
     padding: 15px 0;
+  }
+
+  header nav {
+    width: 16%;
   }
 
   /* Hero Area */
