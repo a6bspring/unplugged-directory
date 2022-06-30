@@ -163,7 +163,7 @@ footer {
 /* Header */
 
 header {
-  padding: 15px 0;
+  padding: 18px 0 15px 0;
 }
 
 header .content-wrapper {
@@ -185,7 +185,7 @@ header figure {
 .header-divider {
   width: 100%;
   height: 1px;
-  margin: 10px 0 20px 0;
+  margin: 15px 0 12px 0;
   background-color: #3a3a3a;
 }
 
@@ -286,6 +286,10 @@ aside {
   background-color: #527158;
 }
 
+aside h3 {
+  margin-top: 0;
+}
+
 aside .form{
   margin-top: 30px;
 }
@@ -329,7 +333,7 @@ input[type=button] {
 .features .features-items {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   flex-flow: row wrap;
 }
 
@@ -545,7 +549,7 @@ input[type=button] {
   /* Header */
   header {
     justify-content: space-around;
-    padding: 33px 0;
+    padding: 30px 0;
   }
 
   header .content-wrapper {
@@ -706,7 +710,7 @@ input[type=button] {
     padding-bottom: 45.5%; 
   }
 
-  .contact-section .content-wrapper h2 {
+  .contact-section h2 {
     width: 80%;
   }
 
@@ -746,7 +750,7 @@ input[type=button] {
 
   /* Header */
   header {
-    padding: 15px 0;
+    padding: 20px 0;
   }
 
   header nav {
@@ -808,10 +812,14 @@ input[type=button] {
     padding-bottom: 37.5%; 
   }
  
-  .mission h2, 
-  .contact-section .content-wrapper h2 {
+  .mission h2 {
     font-size: 3em;
     width: 95%;
+  }
+
+  .contact-section h2 {
+    font-size: 3em;
+    width: 100%;
   }
 
   .contact-content h4 {
